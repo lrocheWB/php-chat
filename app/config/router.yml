@@ -1,0 +1,9 @@
+routes:
+  index: [/,App\Controller\UserController.indexAction, GET]
+  login: [/login,App\Controller\UserController.loginAction, GET]
+  logout: [/logout,App\Controller\UserController.logoutAction, GET]
+  submit_login_form: ["/submit-login-form",App\Controller\UserController.submitFormAction, POST]
+  submit_register_form: ["/submit-register-form",App\Controller\UserController.submitRegisterAction, POST]
+  register: ["/register",App\Controller\UserController.registerAction, GET]
+  chat_get_messages: ["/chat/get-messages",App\Controller\ChatController.getMessagesAction, GET]
+  chat_post_messages: ["/chat/post-messages",App\Controller\ChatController.postMessagesAction, POST]

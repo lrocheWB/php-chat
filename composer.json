@@ -1,0 +1,28 @@
+{
+    "name": "lrocheWB/php-chat",
+    "license": "MIT",
+    "type": "project",
+    "description": "PHP Chat",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "require": {
+        "php": "^5.5|^7.0",
+        "dannyvankooten/php-router": "dev-master",
+        "symfony/yaml": "^3.2",
+        "respect/validation": "^1.1",
+        "jms/serializer": "^1.4"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/dannyvankooten/PHP-Router"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin",
+        "platform": {
+            "php": "5.5.12"
+        }
+    }
+}
