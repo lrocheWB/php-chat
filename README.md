@@ -21,6 +21,7 @@
 <h2>Then,</h2>
 1. git clone
 2. composer install
+3. Go to http://localhost/php-chat/web/
 
 /!\ Check access of database:
 host: 127.0.0.1
@@ -28,5 +29,6 @@ user: root
 password: ''
 dbname: chat
 
+To change this, update file /src/App/Modele/DBMysql.php
 </body>
 </html>
